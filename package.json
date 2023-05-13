@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mkdirp": "^3.0.1",
+    "multiformats": "^11.0.2"
+  }
+}
